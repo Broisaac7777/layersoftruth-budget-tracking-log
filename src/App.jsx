@@ -254,9 +254,13 @@ export default function App() {
 
   // HOME
   if(screen==="home") return (
-    <div style={{fontFamily:"'Segoe UI',system-ui,sans-serif",background:"#f5f7fa"minHeight:"100vh",
-width:"100%",
-overflowX:"hidden"}}>
+    <div style={{
+  fontFamily:"'Segoe UI',system-ui,sans-serif",
+  background:"#f5f7fa",
+  minHeight:"100vh",
+  width:"100%",
+  overflowX:"hidden"
+}}>
       <div style={{background:"#1a3a5c",color:"#fff",padding:"20px",textAlign:"center"}}>
         <div style={{fontSize:22,fontWeight:800,letterSpacing:"-0.5px"}}>⛪ Layers of Truth</div>
         <div style={{fontSize:12,opacity:0.7,marginTop:4}}>Department Budget Tracking System</div>
